@@ -22,5 +22,3 @@ for x in range(len(capture)):
   
 if  counter > 90:
     print(capture[x]['ip'].src + " Scanned Top 100 PORTS ")
-
-print(capture[0]["TCP"].flags)
